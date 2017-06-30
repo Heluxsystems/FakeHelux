@@ -89,7 +89,10 @@ p {
     color: white;
 }
 
-
+#partner-container {
+    border-radius: 5px;
+    max-width: 80%;
+}
 
 
 #section-1 {
@@ -246,6 +249,69 @@ h5 {
     margin: 0;
 }
 
+
+.card-blog {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+
+}
+
+.card-block-blog {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    border-bottom: 1px;
+    box-shadow: none;
+
+}
+
+.card-title-blog {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: auto;
+}
+
+.card-text-blog {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+    width: 200px;
+}
+
+.meta h5 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 .card {
     font-size: 1em;
     overflow: hidden;
@@ -255,6 +321,8 @@ h5 {
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
     
 }
+
+
 
 .card-half {
     font-size: 1em;
@@ -276,16 +344,17 @@ h5 {
     margin: 0 auto;
 }
 
-}
+
 
 .card-small {
     font-size: 1em;
     overflow: hidden;
     padding: 0;
-    border: none;
+    border: 100000px solid;
     border-radius: .28571429rem;
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-    width: 500px;
+    width: 450px;
+    margin-top: 10px;
 }
 
 
@@ -377,14 +446,31 @@ h5 {
     background-color: ghostwhite;
     height: 350px;
 }
-#tag-line-container h2 {
+
+#tag-line-container-2 {
+    background-color: #005191;
+    height: 350px;
+}
+
+#tag-line-container h2, #tag-line-container-2 h2 {
     margin-top: 120px;
     font-size: 50px
 }
+#tag-line-container-2 h2 {
+    margin-top: 120px;
+    font-size: 50px;
+        color: white;
+}
 
-#tag-line-container p {
+#tag-line-container p{
     text-align: center;
     font-size: 25px;
+}
+
+#tag-line-container-2 p {
+    text-align: center;
+    font-size: 25px;
+    color: lightgrey;
 }
 
 .solutions-title {
@@ -420,3 +506,5 @@ h5 {
     margin-bottom: 0px;
     
 }
+
+
